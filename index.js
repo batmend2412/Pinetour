@@ -252,10 +252,154 @@
 //     console.log(j, "*", i, "=", i * j);
 //   }
 // }
-for (let i = -6; i < 0; i++) {
-  // let stars = 3;
-  // for (let j = 1; j >= i; j++) {
-  //   stars += " *";
-  // }
-  console.log(i);
-}
+// for (let i = 0; i < 6; i++) {
+//   let stars = "";
+
+//   for (let j = 0; j <= i; j++) {
+//     stars += " *";
+//   }
+//   console.log(stars);
+// }
+// for (let i = 1; i < 6; i++) {
+//   let stars = "";
+
+//   for (let j = 0; j < 6 - i; j++) {
+//     stars += "  ";
+//   }
+//   for (let k = 1; k > i; k++) {
+//     stars += " *";
+//   }
+//   console.log(stars);
+// }
+// for (let i = 1; i < 6; i++) {
+//   let go = "+";
+//   for (let k = 5 - i; k > 0; k--) {
+//     go += "  ";
+//   }
+//   for (let j = 0; j < i; j++) {
+//     go += " *";
+//   }
+//   console.log(go);
+// }
+// for (let i = 0; i < 6; i++) {
+//   let stars = "";
+//   for (let j = 0; j < i; j++) {
+//     stars += "  ";
+//   }
+//   for (let k = 6 - i; k > 0; k--) {
+//     stars += " *";
+//   }
+//   // for (let j = 0; j < i; j++) {
+//   //   stars += " ";
+//   // }
+//   console.log(stars);
+// }
+// for (let i = 0; i < 8; i++) {
+//   let stars = "";
+//   for (let k = i - 4; k > 0; k *= 2) {
+//     stars += "*";
+//   }
+//   console.log(stars);
+// }
+// const n = 6;
+// for (let i = 0; i < n; i++) {
+//   let stars = "";
+//   for (let j = 0; j < 4; j++) {
+//     if ((i == 0 && (j == 0 || j == 3)) || (i == n - 1 && (j == 0 || j == 3))) {
+//       stars += "  ";
+//     } else {
+//       stars += "* ";
+//     }
+//   }
+//   console.log(stars);
+// }
+// const l = 3;
+// for (let i = 0; i <= l; i++) {
+//   let stars = "";
+//   for (j = 0; j < 4; j++) {
+//     stars += " *";
+//   }
+//   console.log(stars);
+// }
+// const row = 6;
+// const column = 6;
+// for (let i = 1; i <= row; i++) {
+//   let stars = "";
+//   for (let j = 1; j <= column; j++) {
+//     if ((i == 1 || i == row) && (j == 1 || j == column)) {
+//       stars += "*";
+//     } else {
+//       stars += "  ";
+//     }
+//   }
+//   console.log(stars);
+// }
+// 1-100 hvrtelh toonuddin sondgoi toodnuudiin niilber
+// let n = 0;
+// for (let i = 1; i <= 100; i += 2) {
+//   n += i;
+// }
+// console.log(n);
+
+// String
+// Number
+// boorean
+// array
+
+// let even = 0;
+// let odd = 0;
+// for (let j = 1; j <= 100; j++) {
+//   if (j % 2 === 0) {
+//     even += j;
+//   } else {
+//     odd += j;
+//   }
+// }
+// console.log(odd, "sondgoi toonii niilber");
+
+// console.log(even, "tegsh toonii niilber");
+// 2. hello world! string-iin tegsh index deerh usgiig uppercase bolgoh
+// const str = "hello world!";
+// let result = "";
+// for (let i = 0; i <= str.length - 1; i++) {
+//   if (i % 2 === 0) {
+//     result += str[i].toUpperCase();
+//   } else {
+//     result += str[i];
+//   }
+// }
+// console.log(result);
+// 3. n too palindrome too monu true/false
+
+// for (let i = 0; i <=  ; i++) {
+//   const element = array[i];
+
+// }
+// String(Number.split(``).reverse(.join(``).))
+// let studentNames = ["bataa", "bayraa", "ebaa", "tumee", "javhaa", "tsogoo"];
+// studentNames.push(`nymaa`);
+// for (let i = 0; i < studentNames.length; i++) {
+//   console.log(i);
+// }
+// studentNames[7] = `ochiroo`;
+
+// studentNames.pop();
+// console.log(studentNames, `array`);
+// let score = [10, 20, 30, 40, 50];
+// let sum = 0;
+
+// for (let i = 0; i < score.length; i++) {
+//   score[i] *= 2;
+//   sum += score[i];
+// }
+// console.log(score, sum);
+
+// let friuts = ["apple", "banana", "cherry", "date"];
+// friuts.push(`elderberry`);
+// friuts[1] = "blueberry";
+
+// for (let i = 0; i < friuts.length; i++) {
+//   console.log(friuts[i]);
+// }
+// console.log(`ehnii element - ${friuts[0]}, 3dahi element - ${friuts[2]}`);
+// console.log(friuts);

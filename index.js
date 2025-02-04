@@ -22,7 +22,7 @@ console.log(body, "body");
 const div = document.createElement("div");
 div.className = "grid";
 body.appendChild(div);
-CSSContainerRule.className = "conatiner";
+container.className = "conatiner";
 createElement("input", body, "input", "");
 body.appendChild(container);
 const arr = [
